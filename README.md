@@ -1,7 +1,5 @@
 # Survivor transcripts
 
-<!-- ![Words heatmap](visuals/visualization.png) -->
-
 ## About
 
 This repository has scripts for downloading and parsing show transcripts and counting castaways' keywords and phrases — by season and the series overall. 
