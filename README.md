@@ -1,2 +1,31 @@
-# survivor-transcripts
-Fetching and storing complete transcripts for each episode of the American television show and analyzing the text for keyword/phrase frequency. 
+# Survivor transcripts
+
+<!-- ![Words heatmap](visuals/visualization.png) -->
+
+## About
+
+This repository has scripts for downloading and parsing show transcripts and counting castaways' keywords and phrases — by season and the series overall. 
+
+*More documentation to come.* 
+
+## Sources
+
+Most transcripts sourced from [subslikescript](https://subslikescript.com/series/Survivor-239195) with a few missing seasons pulled from the closed-captioning XML files embedded in the CBS/Paramount video player. 
+
+*Seasons 45 and 46 coming soon.*
+
+## Processes
+
+- `scripts/fetch_transcripts.py`: This script collects all episode transcript URLs, converts the URLs to metadata (episode number, season, episode title, URL, etc.), fetches the full transcript for each episode, and (not so successfully, for now) parses the text for what contestants said after Jeff's famous line, "The tribe has spoken." All of it is stored in CSV and JSON formats.
+
+- `scripts/fetch_words.py`: This script reads a list of dozens of subjectively selected words and associated categories from an evolving [Google Sheets doc](https://docs.google.com/spreadsheets/d/1owUkwauJE24EkMUmVyDl7CbnumOygGfC6BufG7Vspd8/edit?gid=0#gid=0) so they can be used for text analysis of episode transcripts.
+
+- `notebooks/01-transcript-analysis.ipynb`: A Jupyter Lab notebook that counts how often these [jargon words](https://docs.google.com/spreadsheets/d/1owUkwauJE24EkMUmVyDl7CbnumOygGfC6BufG7Vspd8/edit?gid=0#gid=0) ("tribe", "vote", "idol", "reward", etc.) have been used by season and episode, according to the transcripts. 
+
+## Related
+- [survivor-voteoffs](https://github.com/stiles/survivor-voteoffs): *How did each castaway react to his or her torch getting snuffed? There's data for that.*
+- [survivoR2py](https://github.com/stiles/survivoR2py): *Converting the authoritative [survivoR](https://github.com/doehm/survivoR) repo's R data files into comma-delimitted formats for use with other tools.*
+
+## Questions? Corrections? 
+
+[Please let me know](mailto:mattstiles@gmail.com).

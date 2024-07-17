@@ -1,0 +1,367 @@
+[
+    {
+        "word":"advantage",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"alliance",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"auction",
+        "category":"challenges",
+        "alternates":""
+    },
+    {
+        "word":"beach",
+        "category":"camp life",
+        "alternates":""
+    },
+    {
+        "word":"beer",
+        "category":"food\/drink",
+        "alternates":""
+    },
+    {
+        "word":"beware",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"bite",
+        "category":"conditions",
+        "alternates":"bit, bites"
+    },
+    {
+        "word":"blindside",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"boat",
+        "category":"tools",
+        "alternates":"canoe"
+    },
+    {
+        "word":"boil",
+        "category":"tools",
+        "alternates":""
+    },
+    {
+        "word":"bug",
+        "category":"creatures",
+        "alternates":"bugs"
+    },
+    {
+        "word":"champagne",
+        "category":"food\/drink",
+        "alternates":""
+    },
+    {
+        "word":"chicken",
+        "category":"food\/drink",
+        "alternates":"rooster"
+    },
+    {
+        "word":"chores",
+        "category":"camp life",
+        "alternates":"work"
+    },
+    {
+        "word":"coconut",
+        "category":"food\/drink",
+        "alternates":"coconuts"
+    },
+    {
+        "word":"cold",
+        "category":"conditions",
+        "alternates":""
+    },
+    {
+        "word":"crocodile",
+        "category":"creatures",
+        "alternates":"crocs, croc"
+    },
+    {
+        "word":"dirt",
+        "category":"conditions",
+        "alternates":"dirty"
+    },
+    {
+        "word":"dive",
+        "category":"challenges",
+        "alternates":"dove"
+    },
+    {
+        "word":"egg",
+        "category":"food\/drink",
+        "alternates":"eggs"
+    },
+    {
+        "word":"elephant",
+        "category":"creatures",
+        "alternates":"elephants"
+    },
+    {
+        "word":"exile",
+        "category":"game play",
+        "alternates":"exiled"
+    },
+    {
+        "word":"fault",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"feast",
+        "category":"food\/drink",
+        "alternates":"barbecue, bbq"
+    },
+    {
+        "word":"fire",
+        "category":"tools",
+        "alternates":""
+    },
+    {
+        "word":"firewood",
+        "category":"tools",
+        "alternates":""
+    },
+    {
+        "word":"fish",
+        "category":"food\/drink",
+        "alternates":"fishing"
+    },
+    {
+        "word":"flag",
+        "category":"camp life",
+        "alternates":""
+    },
+    {
+        "word":"flint",
+        "category":"tools",
+        "alternates":""
+    },
+    {
+        "word":"goat",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"gut",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"heat",
+        "category":"conditions",
+        "alternates":""
+    },
+    {
+        "word":"honest",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"hot",
+        "category":"conditions",
+        "alternates":""
+    },
+    {
+        "word":"idol",
+        "category":"game play",
+        "alternates":"hidden immunity idol, the idol, an idol"
+    },
+    {
+        "word":"immunity",
+        "category":"challenges",
+        "alternates":"immune"
+    },
+    {
+        "word":"insect",
+        "category":"creatures",
+        "alternates":"insect"
+    },
+    {
+        "word":"jungle",
+        "category":"camp life",
+        "alternates":""
+    },
+    {
+        "word":"knife",
+        "category":"tools",
+        "alternates":""
+    },
+    {
+        "word":"lake",
+        "category":"camp life",
+        "alternates":""
+    },
+    {
+        "word":"lazy",
+        "category":"camp life",
+        "alternates":"laziness"
+    },
+    {
+        "word":"lie",
+        "category":"game play",
+        "alternates":"lying"
+    },
+    {
+        "word":"machete",
+        "category":"tools",
+        "alternates":""
+    },
+    {
+        "word":"matches",
+        "category":"tools",
+        "alternates":""
+    },
+    {
+        "word":"merge",
+        "category":"game play",
+        "alternates":"merger"
+    },
+    {
+        "word":"monkey",
+        "category":"creatures",
+        "alternates":"monkeys"
+    },
+    {
+        "word":"naked",
+        "category":"camp life",
+        "alternates":"nude"
+    },
+    {
+        "word":"neck and neck",
+        "category":"challenges",
+        "alternates":"tight"
+    },
+    {
+        "word":"ocean",
+        "category":"camp life",
+        "alternates":""
+    },
+    {
+        "word":"paddle",
+        "category":"tools",
+        "alternates":""
+    },
+    {
+        "word":"pig",
+        "category":"food\/drink",
+        "alternates":"pigs"
+    },
+    {
+        "word":"pot",
+        "category":"tools",
+        "alternates":""
+    },
+    {
+        "word":"puzzle",
+        "category":"challenges",
+        "alternates":"puzzles"
+    },
+    {
+        "word":"rain",
+        "category":"conditions",
+        "alternates":""
+    },
+    {
+        "word":"responsibility",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"reward",
+        "category":"challenges",
+        "alternates":"rewards"
+    },
+    {
+        "word":"safe",
+        "category":"game play",
+        "alternates":"safety"
+    },
+    {
+        "word":"sand",
+        "category":"conditions",
+        "alternates":"sandy"
+    },
+    {
+        "word":"shark",
+        "category":"creatures",
+        "alternates":"sharks"
+    },
+    {
+        "word":"shelter",
+        "category":"camp life",
+        "alternates":""
+    },
+    {
+        "word":"snake",
+        "category":"creatures",
+        "alternates":"snakes"
+    },
+    {
+        "word":"spear",
+        "category":"tools",
+        "alternates":""
+    },
+    {
+        "word":"spider",
+        "category":"creatures",
+        "alternates":"spiders"
+    },
+    {
+        "word":"stress",
+        "category":"game play",
+        "alternates":"stressful"
+    },
+    {
+        "word":"swim",
+        "category":"challenges",
+        "alternates":"swam, swimming"
+    },
+    {
+        "word":"threat",
+        "category":"game play",
+        "alternates":"threats"
+    },
+    {
+        "word":"tribal",
+        "category":"game play",
+        "alternates":"tribal council"
+    },
+    {
+        "word":"tribe",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"truth",
+        "category":"game play",
+        "alternates":""
+    },
+    {
+        "word":"vote",
+        "category":"game play",
+        "alternates":"voted"
+    },
+    {
+        "word":"water",
+        "category":"food\/drink",
+        "alternates":""
+    },
+    {
+        "word":"wine",
+        "category":"food\/drink",
+        "alternates":""
+    },
+    {
+        "word":"yacht",
+        "category":"challenges",
+        "alternates":""
+    }
+]
