@@ -16,7 +16,9 @@ Most transcripts sourced from [subslikescript](https://subslikescript.com/series
 
 - `scripts/fetch_transcripts.py`: This script collects episode transcript URLs for seasons 1-44, converts the URLs to metadata (episode number, season, episode title, URL, etc.) and then fetches the full transcript for each episode. The results are stored as `transcripts` in CSV and JSON formats in the `data/raw/transcripts` directory.
 
-- `scripts/process_youtube_transcripts.py`: This script reads a series of episode transcripts from YouTube TV for seasons 46 and 47. The results are stored as `youtube_transcripts` in CSV and JSON formats in the `data/raw/transcripts` directory. *Still searching for a season 45 source*.
+- `scripts/fetch_youtube_transcripts.py`: This script reads a series of episode transcripts from YouTube TV for seasons 46 and 47. The results are stored as `youtube_transcripts` in CSV and JSON formats in the `data/raw/transcripts` directory. *Still searching for a season 45 source*.
+
+- `scripts/process_all_transcripts.py`: This script reads all the assembled transcripts and outputs them in one, clean file with episode details in CSV and JSON formats in the `data/processed/transcripts` directory. The latest version is also stored on S3: [CSV](https://stilesdata.com/survivor/transcripts/transcripts.csv), [JSON](https://stilesdata.com/survivor/transcripts/transcripts.json)
 
 - `scripts/fetch_words.py`: This script reads a list of dozens of subjectively selected words and associated categories from an evolving [Google Sheets doc](https://docs.google.com/spreadsheets/d/1owUkwauJE24EkMUmVyDl7CbnumOygGfC6BufG7Vspd8/edit?gid=0#gid=0) so they can be used for text analysis of episode transcripts.
 

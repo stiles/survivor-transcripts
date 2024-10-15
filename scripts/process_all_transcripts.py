@@ -37,6 +37,6 @@ transcript_column_order = ['season', 'episode', 'title', 'source', 'version',
        'season_name', 'episode_number_overall', 'episode_title',
        'episode_date', 'episode_length', 'transcript']
 
-# Export
-transcripts_details_df[transcript_column_order].to_csv('../data/processed/transcripts.csv', index=False)
-transcripts_details_df[transcript_column_order].to_json('../data/processed/transcripts.json', indent=4, orient='records')
+# Export to processed
+transcripts_details_df[transcript_column_order].to_csv('../data/processed/transcripts/transcripts.csv', index=False)
+transcripts_details_df[transcript_column_order].to_json('../data/processed/transcripts/transcripts.json', indent=4, orient='records')
