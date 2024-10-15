@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+audio/*
+
 .ipynb_checkpoints
 *.ipynb_checkpoints
 

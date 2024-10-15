@@ -8,13 +8,15 @@ This repository has scripts for downloading and parsing show transcripts and cou
 
 ## Sources
 
-Most transcripts sourced from [subslikescript](https://subslikescript.com/series/Survivor-239195) with a few missing seasons pulled from the closed-captioning XML files embedded in the CBS/Paramount video player. 
+Most transcripts sourced from [subslikescript](https://subslikescript.com/series/Survivor-239195) with a few missing seasons pulled from the closed-captioning XML files embedded in the CBS/Paramount video player or from YouTube TV's timedtext API. 
 
-*Seasons 45 and 46 coming soon.*
+*Still need to find transcripts for season 45*
 
 ## Processes
 
-- `scripts/fetch_transcripts.py`: This script collects all episode transcript URLs, converts the URLs to metadata (episode number, season, episode title, URL, etc.), fetches the full transcript for each episode, and (not so successfully, for now) parses the text for what contestants said after Jeff's famous line, "The tribe has spoken." All of it is stored in CSV and JSON formats.
+- `scripts/fetch_transcripts.py`: This script collects episode transcript URLs for seasons 1-44, converts the URLs to metadata (episode number, season, episode title, URL, etc.) and then fetches the full transcript for each episode. The results are stored as `transcripts` in CSV and JSON formats in the `data/raw/transcripts` directory.
+
+- `scripts/process_youtube_transcripts.py`: This script reads a series of episode transcripts from YouTube TV for seasons 46 and 47. The results are stored as `youtube_transcripts` in CSV and JSON formats in the `data/raw/transcripts` directory. *Still searching for a season 45 source*.
 
 - `scripts/fetch_words.py`: This script reads a list of dozens of subjectively selected words and associated categories from an evolving [Google Sheets doc](https://docs.google.com/spreadsheets/d/1owUkwauJE24EkMUmVyDl7CbnumOygGfC6BufG7Vspd8/edit?gid=0#gid=0) so they can be used for text analysis of episode transcripts.
 

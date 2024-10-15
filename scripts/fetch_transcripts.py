@@ -95,17 +95,17 @@ df['transcript'] = df['url'].progress_apply(fetch_transcript)
 empty_transcripts = df[df['transcript'] == ""]
 print(f"Seasons with empty transcripts:\n{empty_transcripts[['season', 'episode', 'title', 'url']]}")
 
-# Extract post-voteoff lines
-df['post_voteoff_lines'] = df['transcript'].apply(lambda x: extract_post_voteoff_lines(x, num_lines=3))
+# # Extract post-voteoff lines
+# df['post_voteoff_lines'] = df['transcript'].apply(lambda x: extract_post_voteoff_lines(x, num_lines=3))
 
-# Process Season 18 transcripts
-season_18_df['post_voteoff_lines'] = season_18_df['transcript'].apply(lambda x: extract_post_voteoff_lines(x, num_lines=3))
+# # Process Season 18 transcripts
+# season_18_df['post_voteoff_lines'] = season_18_df['transcript'].apply(lambda x: extract_post_voteoff_lines(x, num_lines=3))
 
 # Merge Season 18 transcripts with others
 final_df = pd.concat([df, season_18_df], ignore_index=True)
 
 # Display the resulting DataFrame
-print(final_df[['season', 'episode', 'title', 'post_voteoff_lines']])
+print(final_df[['season', 'episode', 'title']])
 
 # Optional: save to CSV and JSON
 final_df.to_csv('../data/raw/transcripts/transcripts.csv', index=False)

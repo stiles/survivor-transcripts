@@ -36,6 +36,7 @@ fiona = "*"
 gspread = "*"
 numpy = "*"
 meteostat = "*"
+assemblyai = "*"
 
 [requires]
 python_version = "3.9"
