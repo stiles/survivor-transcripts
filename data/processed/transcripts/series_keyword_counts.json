@@ -1,440 +1,488 @@
 [
     {
         "word":"vote",
-        "count":18226,
-        "total_words":4521128,
-        "normalized_count":4.03
+        "count":18969,
+        "total_words":4721349,
+        "normalized_count":40.18
     },
     {
         "word":"tribal",
-        "count":13211,
-        "total_words":4521128,
-        "normalized_count":2.92
+        "count":13721,
+        "total_words":4721349,
+        "normalized_count":29.06
     },
     {
         "word":"tribe",
-        "count":11047,
-        "total_words":4521128,
-        "normalized_count":2.44
+        "count":11493,
+        "total_words":4721349,
+        "normalized_count":24.34
     },
     {
         "word":"idol",
-        "count":10392,
-        "total_words":4521128,
-        "normalized_count":2.3
+        "count":10922,
+        "total_words":4721349,
+        "normalized_count":23.13
+    },
+    {
+        "word":"guys",
+        "count":10657,
+        "total_words":4721349,
+        "normalized_count":22.57
     },
     {
         "word":"immunity",
-        "count":10189,
-        "total_words":4521128,
-        "normalized_count":2.25
+        "count":10457,
+        "total_words":4721349,
+        "normalized_count":22.15
+    },
+    {
+        "word":"love",
+        "count":4052,
+        "total_words":4721349,
+        "normalized_count":8.58
     },
     {
         "word":"fire",
-        "count":3542,
-        "total_words":4521128,
-        "normalized_count":0.78
-    },
-    {
-        "word":"reward",
-        "count":3482,
-        "total_words":4521128,
-        "normalized_count":0.77
+        "count":3701,
+        "total_words":4721349,
+        "normalized_count":7.84
     },
     {
         "word":"chores",
-        "count":3473,
-        "total_words":4521128,
-        "normalized_count":0.77
+        "count":3683,
+        "total_words":4721349,
+        "normalized_count":7.8
+    },
+    {
+        "word":"reward",
+        "count":3624,
+        "total_words":4721349,
+        "normalized_count":7.68
     },
     {
         "word":"water",
-        "count":3229,
-        "total_words":4521128,
-        "normalized_count":0.71
+        "count":3354,
+        "total_words":4721349,
+        "normalized_count":7.1
     },
     {
         "word":"bite",
-        "count":2989,
-        "total_words":4521128,
-        "normalized_count":0.66
+        "count":3114,
+        "total_words":4721349,
+        "normalized_count":6.6
     },
     {
         "word":"alliance",
-        "count":2853,
-        "total_words":4521128,
-        "normalized_count":0.63
+        "count":2970,
+        "total_words":4721349,
+        "normalized_count":6.29
     },
     {
         "word":"puzzle",
-        "count":2328,
-        "total_words":4521128,
-        "normalized_count":0.51
+        "count":2476,
+        "total_words":4721349,
+        "normalized_count":5.24
     },
     {
         "word":"fish",
-        "count":1929,
-        "total_words":4521128,
-        "normalized_count":0.43
+        "count":1990,
+        "total_words":4721349,
+        "normalized_count":4.21
     },
     {
         "word":"safe",
-        "count":1854,
-        "total_words":4521128,
-        "normalized_count":0.41
+        "count":1937,
+        "total_words":4721349,
+        "normalized_count":4.1
     },
     {
         "word":"advantage",
-        "count":1716,
-        "total_words":4521128,
-        "normalized_count":0.38
+        "count":1846,
+        "total_words":4721349,
+        "normalized_count":3.91
     },
     {
         "word":"threat",
-        "count":1586,
-        "total_words":4521128,
-        "normalized_count":0.35
+        "count":1669,
+        "total_words":4721349,
+        "normalized_count":3.54
     },
     {
         "word":"merge",
-        "count":1509,
-        "total_words":4521128,
-        "normalized_count":0.33
+        "count":1594,
+        "total_words":4721349,
+        "normalized_count":3.38
     },
     {
         "word":"lie",
-        "count":1103,
-        "total_words":4521128,
-        "normalized_count":0.24
+        "count":1148,
+        "total_words":4721349,
+        "normalized_count":2.43
     },
     {
         "word":"boat",
-        "count":1056,
-        "total_words":4521128,
-        "normalized_count":0.23
+        "count":1100,
+        "total_words":4721349,
+        "normalized_count":2.33
     },
     {
         "word":"beach",
-        "count":994,
-        "total_words":4521128,
-        "normalized_count":0.22
+        "count":1037,
+        "total_words":4721349,
+        "normalized_count":2.2
     },
     {
         "word":"exile",
-        "count":928,
-        "total_words":4521128,
-        "normalized_count":0.21
+        "count":984,
+        "total_words":4721349,
+        "normalized_count":2.08
     },
     {
         "word":"shelter",
-        "count":890,
-        "total_words":4521128,
-        "normalized_count":0.2
-    },
-    {
-        "word":"chicken",
-        "count":803,
-        "total_words":4521128,
-        "normalized_count":0.18
+        "count":916,
+        "total_words":4721349,
+        "normalized_count":1.94
     },
     {
         "word":"neck and neck",
-        "count":802,
-        "total_words":4521128,
-        "normalized_count":0.18
+        "count":832,
+        "total_words":4721349,
+        "normalized_count":1.76
+    },
+    {
+        "word":"chicken",
+        "count":828,
+        "total_words":4721349,
+        "normalized_count":1.75
     },
     {
         "word":"honest",
-        "count":788,
-        "total_words":4521128,
-        "normalized_count":0.17
+        "count":821,
+        "total_words":4721349,
+        "normalized_count":1.74
     },
     {
         "word":"flag",
-        "count":727,
-        "total_words":4521128,
-        "normalized_count":0.16
+        "count":742,
+        "total_words":4721349,
+        "normalized_count":1.57
     },
     {
         "word":"coconut",
-        "count":693,
-        "total_words":4521128,
-        "normalized_count":0.15
-    },
-    {
-        "word":"swim",
-        "count":637,
-        "total_words":4521128,
-        "normalized_count":0.14
+        "count":732,
+        "total_words":4721349,
+        "normalized_count":1.55
     },
     {
         "word":"hot",
-        "count":635,
-        "total_words":4521128,
-        "normalized_count":0.14
+        "count":686,
+        "total_words":4721349,
+        "normalized_count":1.45
+    },
+    {
+        "word":"swim",
+        "count":653,
+        "total_words":4721349,
+        "normalized_count":1.38
     },
     {
         "word":"truth",
-        "count":577,
-        "total_words":4521128,
-        "normalized_count":0.13
+        "count":590,
+        "total_words":4721349,
+        "normalized_count":1.25
     },
     {
         "word":"blindside",
-        "count":473,
-        "total_words":4521128,
-        "normalized_count":0.1
+        "count":529,
+        "total_words":4721349,
+        "normalized_count":1.12
     },
     {
         "word":"sand",
-        "count":465,
-        "total_words":4521128,
-        "normalized_count":0.1
-    },
-    {
-        "word":"rain",
-        "count":444,
-        "total_words":4521128,
-        "normalized_count":0.1
+        "count":470,
+        "total_words":4721349,
+        "normalized_count":1.0
     },
     {
         "word":"feast",
-        "count":444,
-        "total_words":4521128,
-        "normalized_count":0.1
+        "count":463,
+        "total_words":4721349,
+        "normalized_count":0.98
     },
     {
-        "word":"snake",
-        "count":423,
-        "total_words":4521128,
-        "normalized_count":0.09
+        "word":"rain",
+        "count":447,
+        "total_words":4721349,
+        "normalized_count":0.95
     },
     {
         "word":"flint",
-        "count":394,
-        "total_words":4521128,
-        "normalized_count":0.09
+        "count":445,
+        "total_words":4721349,
+        "normalized_count":0.94
+    },
+    {
+        "word":"snake",
+        "count":425,
+        "total_words":4721349,
+        "normalized_count":0.9
     },
     {
         "word":"gut",
-        "count":382,
-        "total_words":4521128,
-        "normalized_count":0.08
+        "count":400,
+        "total_words":4721349,
+        "normalized_count":0.85
     },
     {
         "word":"cold",
-        "count":358,
-        "total_words":4521128,
-        "normalized_count":0.08
+        "count":372,
+        "total_words":4721349,
+        "normalized_count":0.79
     },
     {
         "word":"jungle",
-        "count":316,
-        "total_words":4521128,
-        "normalized_count":0.07
-    },
-    {
-        "word":"pig",
-        "count":298,
-        "total_words":4521128,
-        "normalized_count":0.07
+        "count":326,
+        "total_words":4721349,
+        "normalized_count":0.69
     },
     {
         "word":"egg",
-        "count":287,
-        "total_words":4521128,
-        "normalized_count":0.06
+        "count":302,
+        "total_words":4721349,
+        "normalized_count":0.64
+    },
+    {
+        "word":"pig",
+        "count":295,
+        "total_words":4721349,
+        "normalized_count":0.62
     },
     {
         "word":"pot",
-        "count":278,
-        "total_words":4521128,
-        "normalized_count":0.06
+        "count":293,
+        "total_words":4721349,
+        "normalized_count":0.62
     },
     {
         "word":"ocean",
-        "count":271,
-        "total_words":4521128,
-        "normalized_count":0.06
-    },
-    {
-        "word":"dirt",
-        "count":254,
-        "total_words":4521128,
-        "normalized_count":0.06
+        "count":292,
+        "total_words":4721349,
+        "normalized_count":0.62
     },
     {
         "word":"machete",
-        "count":242,
-        "total_words":4521128,
-        "normalized_count":0.05
+        "count":268,
+        "total_words":4721349,
+        "normalized_count":0.57
+    },
+    {
+        "word":"dirt",
+        "count":260,
+        "total_words":4721349,
+        "normalized_count":0.55
     },
     {
         "word":"beer",
-        "count":231,
-        "total_words":4521128,
-        "normalized_count":0.05
+        "count":232,
+        "total_words":4721349,
+        "normalized_count":0.49
     },
     {
         "word":"paddle",
-        "count":220,
-        "total_words":4521128,
-        "normalized_count":0.05
+        "count":222,
+        "total_words":4721349,
+        "normalized_count":0.47
     },
     {
         "word":"heat",
-        "count":212,
-        "total_words":4521128,
-        "normalized_count":0.05
+        "count":221,
+        "total_words":4721349,
+        "normalized_count":0.47
     },
     {
         "word":"wine",
-        "count":209,
-        "total_words":4521128,
-        "normalized_count":0.05
+        "count":213,
+        "total_words":4721349,
+        "normalized_count":0.45
+    },
+    {
+        "word":"pick it up",
+        "count":190,
+        "total_words":4721349,
+        "normalized_count":0.4
     },
     {
         "word":"firewood",
-        "count":172,
-        "total_words":4521128,
-        "normalized_count":0.04
+        "count":176,
+        "total_words":4721349,
+        "normalized_count":0.37
     },
     {
         "word":"spear",
-        "count":170,
-        "total_words":4521128,
-        "normalized_count":0.04
+        "count":173,
+        "total_words":4721349,
+        "normalized_count":0.37
     },
     {
         "word":"knife",
-        "count":155,
-        "total_words":4521128,
-        "normalized_count":0.03
+        "count":160,
+        "total_words":4721349,
+        "normalized_count":0.34
     },
     {
         "word":"bug",
-        "count":153,
-        "total_words":4521128,
-        "normalized_count":0.03
-    },
-    {
-        "word":"fault",
-        "count":150,
-        "total_words":4521128,
-        "normalized_count":0.03
+        "count":154,
+        "total_words":4721349,
+        "normalized_count":0.33
     },
     {
         "word":"dive",
+        "count":152,
+        "total_words":4721349,
+        "normalized_count":0.32
+    },
+    {
+        "word":"fault",
+        "count":151,
+        "total_words":4721349,
+        "normalized_count":0.32
+    },
+    {
+        "word":"banana",
         "count":147,
-        "total_words":4521128,
-        "normalized_count":0.03
+        "total_words":4721349,
+        "normalized_count":0.31
     },
     {
         "word":"auction",
         "count":134,
-        "total_words":4521128,
-        "normalized_count":0.03
+        "total_words":4721349,
+        "normalized_count":0.28
     },
     {
         "word":"boil",
-        "count":131,
-        "total_words":4521128,
-        "normalized_count":0.03
+        "count":130,
+        "total_words":4721349,
+        "normalized_count":0.28
     },
     {
         "word":"naked",
-        "count":131,
-        "total_words":4521128,
-        "normalized_count":0.03
-    },
-    {
-        "word":"shark",
-        "count":120,
-        "total_words":4521128,
-        "normalized_count":0.03
+        "count":128,
+        "total_words":4721349,
+        "normalized_count":0.27
     },
     {
         "word":"stress",
-        "count":115,
-        "total_words":4521128,
-        "normalized_count":0.03
+        "count":123,
+        "total_words":4721349,
+        "normalized_count":0.26
+    },
+    {
+        "word":"shark",
+        "count":123,
+        "total_words":4721349,
+        "normalized_count":0.26
     },
     {
         "word":"goat",
-        "count":113,
-        "total_words":4521128,
-        "normalized_count":0.02
+        "count":116,
+        "total_words":4721349,
+        "normalized_count":0.25
     },
     {
         "word":"monkey",
-        "count":108,
-        "total_words":4521128,
-        "normalized_count":0.02
+        "count":110,
+        "total_words":4721349,
+        "normalized_count":0.23
+    },
+    {
+        "word":"beware",
+        "count":104,
+        "total_words":4721349,
+        "normalized_count":0.22
+    },
+    {
+        "word":"how you do it",
+        "count":103,
+        "total_words":4721349,
+        "normalized_count":0.22
+    },
+    {
+        "word":"fire represents your life",
+        "count":96,
+        "total_words":4721349,
+        "normalized_count":0.2
     },
     {
         "word":"elephant",
         "count":94,
-        "total_words":4521128,
-        "normalized_count":0.02
+        "total_words":4721349,
+        "normalized_count":0.2
     },
     {
         "word":"lazy",
-        "count":92,
-        "total_words":4521128,
-        "normalized_count":0.02
+        "count":86,
+        "total_words":4721349,
+        "normalized_count":0.18
     },
     {
         "word":"matches",
-        "count":79,
-        "total_words":4521128,
-        "normalized_count":0.02
+        "count":80,
+        "total_words":4721349,
+        "normalized_count":0.17
     },
     {
         "word":"responsibility",
-        "count":75,
-        "total_words":4521128,
-        "normalized_count":0.02
+        "count":76,
+        "total_words":4721349,
+        "normalized_count":0.16
     },
     {
         "word":"lake",
-        "count":66,
-        "total_words":4521128,
-        "normalized_count":0.01
+        "count":68,
+        "total_words":4721349,
+        "normalized_count":0.14
     },
     {
         "word":"champagne",
         "count":61,
-        "total_words":4521128,
-        "normalized_count":0.01
+        "total_words":4721349,
+        "normalized_count":0.13
     },
     {
         "word":"yacht",
         "count":60,
-        "total_words":4521128,
-        "normalized_count":0.01
+        "total_words":4721349,
+        "normalized_count":0.13
     },
     {
-        "word":"beware",
-        "count":47,
-        "total_words":4521128,
-        "normalized_count":0.01
+        "word":"snail",
+        "count":50,
+        "total_words":4721349,
+        "normalized_count":0.11
     },
     {
         "word":"spider",
-        "count":42,
-        "total_words":4521128,
-        "normalized_count":0.01
+        "count":44,
+        "total_words":4721349,
+        "normalized_count":0.09
     },
     {
         "word":"crocodile",
-        "count":37,
-        "total_words":4521128,
-        "normalized_count":0.01
+        "count":35,
+        "total_words":4721349,
+        "normalized_count":0.07
     },
     {
         "word":"insect",
-        "count":26,
-        "total_words":4521128,
-        "normalized_count":0.01
+        "count":28,
+        "total_words":4721349,
+        "normalized_count":0.06
+    },
+    {
+        "word":"come on in guys",
+        "count":8,
+        "total_words":4721349,
+        "normalized_count":0.02
     }
 ]

@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 
 """
@@ -36,6 +37,31 @@ transcripts_details_df = pd.merge(transcripts_all, episode_us_slim_df, on=['seas
 transcript_column_order = ['season', 'episode', 'title', 'source', 'version',
        'season_name', 'episode_number_overall', 'episode_title',
        'episode_date', 'episode_length', 'transcript']
+
+
+# Base directory to store individual files
+base_dir = '../data/processed/transcripts/files/'
+
+# Ensure base directory exists
+os.makedirs(base_dir, exist_ok=True)
+
+# Iterate over each row in the merged transcripts dataframe
+for _, row in transcripts_details_df.iterrows():
+    # Create directory for the season if it doesn't exist
+    season_dir = os.path.join(base_dir, f"season_{row['season']}")
+    os.makedirs(season_dir, exist_ok=True)
+
+    # Define the filename using episode number
+    filename = f"episode_{row['episode']:02d}.txt"
+
+    # Full path to the file
+    file_path = os.path.join(season_dir, filename)
+
+    # Write the transcript to a file
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write(row['transcript'])
+
+print("All transcripts saved to individual files.")
 
 # Export to processed
 transcripts_details_df[transcript_column_order].to_csv('../data/processed/transcripts/transcripts.csv', index=False)

@@ -37,6 +37,7 @@ gspread = "*"
 numpy = "*"
 meteostat = "*"
 assemblyai = "*"
+vl-convert-python = "*"
 
 [requires]
 python_version = "3.9"

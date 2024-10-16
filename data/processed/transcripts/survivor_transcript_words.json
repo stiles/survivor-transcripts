@@ -1,5 +1,35 @@
 [
     {
+        "word":"how you do it",
+        "category":"key phrases",
+        "alternates":"how you do it on survivor"
+    },
+    {
+        "word":"fire represents your life",
+        "category":"key phrases",
+        "alternates":"fire represents life"
+    },
+    {
+        "word":"come on in guys",
+        "category":"key phrases",
+        "alternates":""
+    },
+    {
+        "word":"pick it up",
+        "category":"key phrases",
+        "alternates":"you need to pick it up"
+    },
+    {
+        "word":"love",
+        "category":"challenges",
+        "alternates":"loved ones, love from home"
+    },
+    {
+        "word":"guys",
+        "category":"challenges",
+        "alternates":""
+    },
+    {
         "word":"advantage",
         "category":"game play",
         "alternates":""
@@ -13,6 +43,11 @@
         "word":"auction",
         "category":"challenges",
         "alternates":""
+    },
+    {
+        "word":"banana",
+        "category":"food\/drink",
+        "alternates":"bananas"
     },
     {
         "word":"beach",
@@ -303,6 +338,11 @@
         "word":"snake",
         "category":"creatures",
         "alternates":"snakes"
+    },
+    {
+        "word":"snail",
+        "category":"food\/drink",
+        "alternates":"snails"
     },
     {
         "word":"spear",
