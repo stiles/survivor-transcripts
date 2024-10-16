@@ -4,8 +4,6 @@
 
 This repository has scripts for downloading and parsing show transcripts and counting castaways' keywords and phrases — by season and the series overall. 
 
-*More documentation to come.* 
-
 ## Sources
 
 Most transcripts sourced from [subslikescript](https://subslikescript.com/series/Survivor-239195) with a few missing seasons pulled from the closed-captioning XML files embedded in the CBS/Paramount video player or from YouTube TV's timedtext API. 
