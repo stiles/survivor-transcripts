@@ -26,14 +26,37 @@ Most transcripts sourced from [subslikescript](https://subslikescript.com/series
 
 ## Outputs
 
-The individual Survivor episode transcripts are organized by season and episode number. You can access the files directly from S3 storage or via the provided URLs.
+The individual Survivor episode transcripts are organized by season and episode number. You can access the files directly from S3 storage or via the provided URLs. The files are an amalgamation from many sources, so formatting isn't perfect or consistent. 
+
+For example:  
+
+```txt
+         JEFF PROBST: 
+ From this tiny, 
+ Malaysian fishing village, 
+these 16 Americans are 
+ beginning the adventure 
+of a lifetime. 
+They have volunteered 
+ to be marooned for 39 days 
+on mysterious Borneo. 
+This is their story. 
+This is Survivor. 
+Are we getting two of these? 
+Where's that box? 
+JEFF: 
+You are witnessing 16 Americans 
+ begin an adventure 
+that will forever change 
+ their lives. 
+```
 
 ### File structure
 
 Each transcript is stored in the following format:
 
-- **Season Directories**: Files are organized by season, with each season having its own directory.
-- **File Naming Convention**: Within each season directory, files are named based on the episode number, formatted as `episode_XX.txt` (where `XX` is the episode number).
+- **Season directories**: Files are organized by season, with each season having its own directory.
+- **File naming convention**: Within each season directory, files are named based on the episode number, formatted as `episode_XX.txt` (where `XX` is the episode number).
 
 ### Directory structure
 
