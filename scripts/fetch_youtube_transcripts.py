@@ -64,6 +64,8 @@ def process_youtube_timedtext(season_metadata):
     # Iterate through the files in youtube_timedtext directory
     for filename in os.listdir(youtube_dir):
         if filename.endswith('.json'):
+            print(f"Processing file: {filename}")  # Debug
+
             input_path = os.path.join(youtube_dir, filename)
 
             # Load the YouTube JSON
@@ -71,20 +73,28 @@ def process_youtube_timedtext(season_metadata):
                 timedtext_data = json.load(f)
 
             # Extract the season and episode from the filename
-            season_episode = filename.replace('.json', '').split('us')[1]
-            season = int(season_episode[:2])
-            episode = int(season_episode[2:])
+            try:
+                season_episode = filename.replace('.json', '').split('us')[1]
+                season = int(season_episode[:2])
+                episode = int(season_episode[2:])
+            except (IndexError, ValueError):
+                print(f"Skipping malformed filename: {filename}")
+                continue
 
             # Get the transcript from the YouTube JSON
+            if 'events' not in timedtext_data:
+                print(f"No events found in: {filename}")
+                continue
             transcript = convert_timedtext_to_transcript(timedtext_data)
 
-            # Find the corresponding metadata (title and air date)
+            # Find the corresponding metadata (title)
             metadata = next((item for item in season_metadata if item['season'] == season and item['episode'] == episode), None)
 
             if metadata:
                 title = metadata['title']
             else:
                 title = f"Episode {episode}"
+                print(f"No metadata found for Season {season}, Episode {episode}")
 
             # Append transcript and metadata
             processed_transcripts.append({
@@ -103,6 +113,7 @@ def process_youtube_timedtext(season_metadata):
                     'title': title,
                     'transcript': transcript
                 }, f_out, indent=4)
+                print(f"Saved processed file: {output_path}")
 
     return pd.DataFrame(processed_transcripts)
 
