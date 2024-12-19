@@ -84,10 +84,6 @@ To access a different episode, simply change the `season_1` and `episode_01.txt`
 
 - [Season 47, Episode 14 Transcript](https://stilesdata.com/survivor/transcripts/files/season_47/episode_14.txt)
 
-```txt
-The question is did it earn you a million dollars? We're about to crown a winner of Survivor 47. I'll read the votes. First vote: Rachel. Sam. One vote Rachel, one vote Sam. Rachel. Two votes Rachel, one vote Sam. Rachel. Three votes Rachel, one vote Sam. Rachel. Four votes Rachel, one vote Sam. The winner of Survivor 47: Rachel.
-```
-
 ## Related work
 - [survivor-voteoffs](https://github.com/stiles/survivor-voteoffs): *How did each castaway react to his or her torch getting snuffed? There's data for that.*
 - [survivoR2py](https://github.com/stiles/survivoR2py): *Converting the authoritative [survivoR](https://github.com/doehm/survivoR) repo's R data files into comma-delimitted formats for use with other tools.*
