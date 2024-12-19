@@ -20,7 +20,7 @@ Most transcripts sourced from [subslikescript](https://subslikescript.com/series
 
 - `scripts/fetch_words.py`: This script reads a list of dozens of subjectively selected words and associated categories from an evolving [Google Sheets doc](https://docs.google.com/spreadsheets/d/1owUkwauJE24EkMUmVyDl7CbnumOygGfC6BufG7Vspd8/edit?gid=0#gid=0) so they can be used for text analysis of episode transcripts.
 
-- `notebooks/01-transcript-analysis.ipynb`: A Jupyter Lab notebook that counts how often these [jargon words](https://docs.google.com/spreadsheets/d/1owUkwauJE24EkMUmVyDl7CbnumOygGfC6BufG7Vspd8/edit?gid=0#gid=0) ("tribe", "vote", "idol", "reward", etc.) have been used by season and episode, according to the transcripts.
+- `scripts/analyze_all_transcripts.py`: This script that counts how often these [jargon words](https://docs.google.com/spreadsheets/d/1owUkwauJE24EkMUmVyDl7CbnumOygGfC6BufG7Vspd8/edit?gid=0#gid=0) ("tribe", "vote", "idol", "reward", etc.) have been used by season and episode, according to the transcripts.
 
 ## Outputs
 
@@ -82,8 +82,11 @@ You can access each transcript by navigating to the corresponding URL. For examp
 
 To access a different episode, simply change the `season_1` and `episode_01.txt` parts of the URL to the appropriate season and episode number. For instance:
 
-- [Season 1, Episode 2 Transcript](https://stilesdata.com/survivor/transcripts/files/season_1/episode_02.txt)
-- [Season 2, Episode 1 Transcript](https://stilesdata.com/survivor/transcripts/files/season_2/episode_01.txt)
+- [Season 47, Episode 14 Transcript](https://stilesdata.com/survivor/transcripts/files/season_47/episode_14.txt)
+
+```txt
+The question is did it earn you a million dollars? We're about to crown a winner of Survivor 47. I'll read the votes. First vote: Rachel. Sam. One vote Rachel, one vote Sam. Rachel. Two votes Rachel, one vote Sam. Rachel. Three votes Rachel, one vote Sam. Rachel. Four votes Rachel, one vote Sam. The winner of Survivor 47: Rachel.
+```
 
 ## Related work
 - [survivor-voteoffs](https://github.com/stiles/survivor-voteoffs): *How did each castaway react to his or her torch getting snuffed? There's data for that.*

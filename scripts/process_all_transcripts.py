@@ -9,10 +9,30 @@ details in CSV and JSON format
 
 # Read latest file about episodes from the `survivoR2py` repo
 episode_src = pd.read_json('https://stilesdata.com/survivor/survivoR2py/processed/json/episodes.json')
-episode_src['episode_date'] = pd.to_datetime(episode_src['episode_date'], unit='ms').dt.strftime('%Y-%m-%d')
+
+episode_fix = pd.DataFrame([{
+       "version": "US",
+       "version_season": "US47",
+       "season_name": "Survivor: 47",
+       "season": 47,
+       "episode_number_overall": '',
+       "episode": 14,
+       "episode_title": '',
+       "episode_label": '',
+       "episode_date": '',
+       "episode_length": '',
+       "viewers": '',
+       "imdb_rating": '',
+       "n_ratings": '',
+       "episode_summary": ''
+}])
+
+episode_df = pd.concat([episode_src, episode_fix]).reset_index(drop=True)
+
+episode_df['episode_date'] = pd.to_datetime(episode_df['episode_date'], unit='ms').dt.strftime('%Y-%m-%d')
 
 # Subset episodes DataFrame to just US episodes
-episode_us_df = episode_src.query('version == "US"').copy()
+episode_us_df = episode_df.query('version == "US"').copy()
 
 # Just the columns we want
 episides_slim_cols = ['version', 'season_name', 'season',
